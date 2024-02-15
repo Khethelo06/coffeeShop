@@ -324,7 +324,7 @@ html{
 
     .navbar-toggle{
         display: block;
-        margin-right: 2rem;
+        margin-right: 1rem;
         position: absolute;
         right: 0;
         cursor: pointer;
