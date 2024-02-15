@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    width: 100%;
+    height: 150px;
+}
+
+.navbar-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 2rem;
+}
+
+.brandName{
+    color: khaki;
+    font-size: 2.4rem;
+}
+
+.navbar-menu{
+    display: flex;
+    padding: 1rem 0;
+}
+
+.navbar-menu li{
+    font-size: 1.2rem;
+    color: white;
+    padding: 0.8rem;
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all ease-in-out 1.4s;
+}
+
+.navbar-menu li:hover{
+    text-decoration: underline;
+    transition: all ease-in-out 1.4s;
+}
+
+.navbar-menu li a{
+    font-size: 1.2rem;
+    color: white;
+    padding: 0.8rem;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all ease-in-out 1.4s;
+}
+
+.navbar-menu li a:hover{
+    text-decoration: underline;
+    transition: all ease-in-out 1.4s;
+}
+
+.cover{
+    width: 100%;
+    height: 70vh;
+    background-image: url("images/studio1.avif");
+}
+
+.titleName{
+    color: chocolate;
+    font-size: 2rem;
+}
+
+.homePage{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.3rem 4rem;
+}
+
+.home-container{
+    width: 100%;
+    display: grid;
+    grid-gap: 1rem;
+    margin: 1rem 1rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.coffeeType{
+    text-align: center; 
+    font-size: 1.7rem; 
+    margin: 0;
+}
+
+.menu{
+    font-size: 1.2rem;
+}
+
+.class1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.class2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.class3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.class4{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.class5{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.class6{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.studio1{
+    text-align: center;
+    object-fit: contain;
+}
+
+.studio2{
+    text-align: center;
+    object-fit: contain;
+}
+
+.storeImg{
+    width: 70%;
+    height: 70%;
+    border-radius: 10px;
+}
+
+.productImg{
+    width: 80%;
+    height: 80%;
+    border-radius: 100px;
+}
+
+.drinkPage{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.3rem 1.3rem;
+    background-color: rgb(233, 223, 134);
+}
+
+.drink-container{
+    width: 100%;
+    display: grid;
+    grid-gap: 1rem;
+    margin: 2rem 1rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.timePage{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.3rem 1.3rem;
+}
+
+.time-container{
+    width: 100%;
+    display: grid;
+    grid-gap: 1rem;
+    margin: 2rem 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.contactPage{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.3rem 1.3rem;
+    background-color: black;
+}
+
+.contact-container{
+    color: khaki;
+    width: 100%;
+}
+
+.navbar-toggle{
+    display: none;
+}
+
+@media screen and (max-width: 790px) {
+
+    .coffeeType{
+        font-size: 1.5rem;
+    }
+
+    .menu{
+        font-size: 1rem;
+    }
+
+    .navbar-container{
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-container{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .drink-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .coffee1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .coffee2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .coffee3{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .time-container{
+        width: 100%;
+        display: grid;
+        grid-gap: 1rem;
+        margin: 2rem 1rem;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .productImg{
+        width: 50%;
+        height: 50%;
+        border-radius: 100px;
+    }
+
+    .class4Coffee{
+        display: none;
+    }
+
+    .navbar-menu{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        top: -160%;
+        transition: all 1s ease-in-out;
+
+
+    }
+
+    .navbar-menu.active{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 60%;
+        position: absolute;
+        transition: all 0.8s ease-in-out;
+    }
+
+    .navbar-menu li{
+        display: table;
+    }
+
+    .navbar-links{
+        display: flex;
+        align-items: center;
+        padding: 0;
+        height: 80px;
+    }
+
+    .navbar-toggle{
+        display: block;
+        margin-right: 2rem;
+        position: absolute;
+        right: 3%;
+        cursor: pointer;
+    }
+
+    .navbar-toggle .bar{
+        background: white;
+        display: block;
+        height: 3px;
+        width: 29px;
+        margin: 5px auto;
+        z-index: 1;
+        transition: all 0.4s ease-in-out;
+    }
+
+    #menu-bar.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    #menu-bar.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    #menu-bar.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
