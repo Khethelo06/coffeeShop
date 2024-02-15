@@ -326,7 +326,7 @@ html{
         display: block;
         margin-right: 2rem;
         position: absolute;
-        right: 3%;
+        right: 0;
         cursor: pointer;
     }
 
