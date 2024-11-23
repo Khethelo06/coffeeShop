@@ -71,7 +71,8 @@ html{
 
 .titleName{
     color: chocolate;
-    font-size: 2rem;
+    font-size: 4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .homePage{
