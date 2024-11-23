@@ -154,6 +154,21 @@ html{
     object-fit: contain;
 }
 
+.coffee1{
+    display: flex;
+    justify-content: right;
+}
+
+.coffee2{
+    display: flex;
+    justify-content: left;
+}
+
+.coffee3{
+    display: flex;
+    justify-content: right;
+}
+
 .storeImg{
     width: 70%;
     height: 70%;
@@ -161,9 +176,8 @@ html{
 }
 
 .productImg{
-    width: 80%;
-    height: 80%;
-    border-radius: 100px;
+    width: 70%;
+    height: 70%;
 }
 
 .drinkPage{
